@@ -1,0 +1,647 @@
+{
+    "intents":[
+  {
+    "tag": "sapa",
+    "patterns": [
+        "Hai",
+        "Apa kabarmu?",
+        "Apakah ada orang di sana?",
+        "Halo",
+        "Selamat tinggal",
+        "apa kabar",
+        "hei",
+        "??? ??? ??"
+    ],
+    "responses": [
+        "Halo!",
+        "Senang bertemu denganmu lagi!",
+        "Halo, ada yang bisa saya bantu?"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "salam",
+    "patterns": [
+        "Assalamualaikum",
+        "Assalamu'alaikum",
+        "Assalamualaikum Warahmatullah Wabarakatuh"
+    ],
+    "responses": [
+        "Wa'alaikumsalam",
+        "Wa'alaikumsalam Warahmatullahi Wabarakatuh"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "sampai jumpa",
+    "patterns": [
+        "ya",
+        "sampai jumpa",
+        "Sampai jumpa lagi",
+        "Selamat tinggal",
+        "Saya meninggalkan",
+        "Selamat tinggal",
+        "Semoga harimu menyenangkan",
+        "bicara denganmu nanti",
+        "nanti ngobrol lagi",
+        "Aku harus pergi"
+    ],
+    "responses": [
+        "Sedih melihatmu pergi :(",
+        "Bicara denganmu nanti",
+        "Selamat tinggal!",
+        "Segera kembali"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "nama",
+    "patterns": [
+        "nama",
+        "namamu",
+        "apakah kamu punya nama",
+        "apa yang kamu panggil",
+        "Siapa namamu",
+        "aku harus memanggilmu apa",
+        "siapa namamu?",
+        "apa yang kamu",
+        "siapa kamu",
+        "siapa ini",
+        "aku ngobrol dengan apa",
+        "aku akan mengajak siapa",
+        "apa yang kamu"
+    ],
+    "responses": [
+        "Saya El-Huda Bot, Saya adalah sebuah chatbot. saya akan membantu ada kenal lebih dekat dengan Aplikasi ini"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "Deskripsi",
+    "patterns": [
+        "Ini aplikasi apa",
+        "jelaskan tentang aplikasi ini",
+        "aplikasi ini digunakan untuk apa",
+        "deskripsikan tentang aplikasi ini",
+        "aplikasi apa ini",
+        "coba jelaskan tentang aplikasi ini",
+        "apa kegunaan dari aplikasi ini"
+    ],
+    "responses": [
+        "Ini adalah sebuah Aplikasi yang akan membantu anda untuk mempelajari kitab kuning, Kitab Kuning yang tersedia untuk sekarang yaitu kitab Fathul Qorib"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "Kitab",
+    "patterns": [
+        "apa itu fathul qorib",
+        "apa itu fathul qarib",
+        "apa itu kitab fathul qorib",
+        "kitab fathul qorib menjelaskan tentang apa",
+        "jelaskan tentang kitab fathul qorib",
+        "fathul qorib kitab apa",
+        "fathul qorib kitab tentang apa"
+    ],
+    "responses": [
+        "Kitab Fathul Qarib adalah salah satu kitab berbahasa Arab tanpa menggunakan harakat dan terjemahan. Di dalam pesantren, kitab ini  lebih dikenal dengan istilah kitab kuning atau kitab gundul. Dalam penyusunannya, kitab Fathul Qarib ini disusun secara ringkas dan sistematis, serta bermahzab Syafi’i. Kitab ini merupakan penjelasan dari kitab yang dikarang oleh Al Qadhi Abu Syuja, yaitu Al-Ghayah wa At-Taqrib. Penggunaan kitab Fathul Qarib sendiri, dijadikan sebagai sumber primer dan pegangan wajib di sebuah madrasah diniyah atau lembaga pendidikan Islam yang bersifat salaf, yaitu pendidikan yang bercorak tradisional."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "Kitab2",
+    "patterns": [
+        "apa saja isi dari kitab fathul qorib",
+        "penjelasan apa saja yang ada dalam kitab fathul qorib",
+        "isi kitab fathul qorib",
+        "bab apa saja yang dalam kitab fathul qorib",
+        "sebutkan bab yang ada dalam kitab fathul qorib"
+    ],
+    "responses": [
+        "Dalam kitab Fathul Qorib terdapat beberapa bab, antara lain : 1. Bab Bersuci, 2.Bab Sholat, 3.Bab Zakat, 4.Bab Puasa, 5.Bab Haji, 6.Bab Jual Beli dan Akad Muamalah, 7.Bab Mawaris dan Wasiat, 8.Bab Hukum Nikah. 9.Bab Tindak Pidana, 10.Bab Hukuman, 11.Bab Jihad, 12.Bab Binatang Buruan dan Sembelihan, 13.Bab Perlombaan dan Memanah, 14.Bab Sumpah dan Nadzar, 15.Bab Pengadilan dan Persaksian, 16.Bab Pembebasan Budak."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "bersuci",
+    "patterns": [
+        "Jelaskan tentang bab bersuci",
+        "apa itu bab bersuci",
+        "apa isi dari bab bersuci",
+        "berikan penjelasan tentang bab bersuci",
+        "bab bersuci"
+    ],
+    "responses": [
+        "Bab Bersuci atau Thaharah adalah bab yang menerangkan tentang melakukan sesuatu dengan tujuan untuk membersihkan diri dari hadats kecil dan besar yang bertujuan untuk menjadi syarat sah dalam beribadah"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:air_suci",
+    "patterns": [
+        "Apa saja air yang bisa digunakan untuk bersuci",
+        "apa air untuk bersuci bersuci",
+        "apa saja air yang bisa untuk bersuci",
+        "air apa yang sah digunakan untuk bersuci",
+        "air untuk bersuci"
+    ],
+    "responses": [
+        "Air yang sah digunakan untuk bersuci ada 7. yaitu, 1. Air hujan, 2. Air laut, 3. Air Sungai, 4. Air Sumur, 5. Mata air, 6. Air embun, 7. Air es"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:macam_air",
+    "patterns": [
+        "Apa saja macam-macam air ",
+        "apa macam-macam air",
+        "apa saja macam-macam air dalam bab bersuci",
+        "macam-macam air",
+        "macam air"
+    ],
+    "responses": [
+        "Macam-macam air ada 4 yaitu; 1. Air yang suci dan mensucikan (air mutlaq), 2. Air suci yang tidak mensucikan (air mustaqmal), 3. Air Musyammas, 4. Air Najis"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:macam_air_mutlaq",
+    "patterns": [
+        "Apa itu air mutlaq ",
+        "apa yang dimaksud air suci yang mensucikan",
+        "apa itu penjelasan air mutlaq",
+        "jelaskan tentang air suci yang mensucikan",
+        "macam macam air mutlaq"
+    ],
+    "responses": [
+        "Air suci yang mensucikan atau air mutlaq adalah air yang suci secara zatnya dari sesuatu dan dapat digunakan untuk bersuci"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:macam_air_mustaqmal",
+    "patterns": [
+        "Apa itu air mustaqmal ",
+        "apa yang dimaksud air suci yang tidak mensucikan",
+        "apa itu penjelasan air mustaqmal",
+        "jelaskan tentang air suci yang tidak mensucikan",
+        "macam macam air mustaqmal"
+    ],
+    "responses": [
+        "Air suci yang tidak mensucikan atau air mustaqmal adalah air yang suci dzatnya namun tidak bisa mensucikan pada yang lainnya. Yaitu air musta’mal. Yaitu air yang sudah digunakan untuk menghilangkan hadats, atau menghilangkan najis jika memang tidak berubah sifatnya dan tidak bertambah ukurannya, setelah terpisah dari tempat yang di basuh beserta menghitung air yang diserap oleh tempat yang dibasuh"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:macam_air_musyammas",
+    "patterns": [
+        "Apa itu air musyammas ",
+        "apa yang dimaksud air musyammas",
+        "apa itu penjelasan air musyammas",
+        "jelaskan tentang air musyammas",
+        "macam macam air musyammas"
+    ],
+    "responses": [
+        "Air Musyammas adalah air yang suci dzatnya, bisa mensucikan pada yang lainnya, dan makruh menggunakannya pada badan tidak pada pakaian. Yaitu air musyammas, yaitu air yang dipanaskan dengan pengaruh sinar matahari. Air musyammas ini hanya dimakruhkan secara syara’ bila digunakan di daerah panas dengan menggunakan wadah yang dapat dicetak (terbuat dari logam), selain wadah yang terbuat dari emas dan perak, karena elemen keduanya adalah bersih (dari karat). Dan ketika air musyammas itu menjadi dingin, maka hukum makruhnya menjadi hilang. Namun imam an Nawawi lebih memilih hukum tidak makruh secara mutlak. Dan juga di makruhkan menggunakan air yang terlalu panas (bukan karena sinar matahari) dan terlalu dingin."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:macam_air_najis",
+    "patterns": [
+        "Apa itu air najis ",
+        "apa yang dimaksud air najis",
+        "apa itu penjelasan air najis",
+        "jelaskan tentang air najis",
+        "macam macam air najis"
+    ],
+    "responses": [
+        "Air Najis adalah air air yang terkena najis. Air najis ini terbagi menjadi dua yaitu 1. air yang kurang dari dua qullah yang terkena najis tapi tidak berubah sifatnya. Dari bagian ini (air mutanajis yang sedikit), mengecualikan bangkai binatang yang tidak mengalir darahnya ketika dibunuh atau dipotong anggota badannya seperti lalat, jika memang tidak sengaja dimasukkan dan tidak sampai merubah sifat air. 2. dan air yang lebih dari dua qullah yang terkena najis tapi berubah sifatnya"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:Menyamak_kulit",
+    "patterns": [
+        "Jelaskan tentang fasal tentang menyamak kulit bangkai",
+        "apa itu fasal tentang menyamak kulit",
+        "apa isi fasal tentang menyamak kilit bangkai",
+        "apakah boleh menggunakan kulit bangkai",
+        "apakah kulit bangkai itu bisa disucikan",
+        "apa saja kulit yang tidak bisa disucikan"
+    ],
+    "responses": [
+        "Semua kulit bangkai bisa disucikan dengan cara disamak kecuali kulit anjing, babi serta keturunan mereka (baik hasil hubungan sejenis atau tidak sejenis). Menyamak adalah kegiatan untuk membuat kulit bangkai yang awalnya najis menjadi suci. Tata cara menyamak adalah dengan menghilangkan hal – hal yang melekat pada kulit yang bisa membuat busuk yaitu berupa darah dan sesamanya dengan menggunakan barang yang asam / pahit."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:perabot_yang_haram",
+    "patterns": [
+        "apa saja perabotan yang haram digunakan",
+        "apa itu fasal tentan perabotan yang haram digunakan",
+        "apa boleh menggunakan emas atau perak pada perabotan",
+        "apa boleh menggunakan emas untuk perabotan",
+        "apa boleh menggunakan perak untuk perabotan"
+    ],
+    "responses": [
+        "Fasal menjelaskan wadah-wadah yang haram dipergunakan dan yang boleh dipergunakan. Wadah atau perabotan yang terbuat dari emas atau perak haram untuk digunakan, untuk selain emas dan perak diperbolehkan untuk digunakan. Mushannif (pengarang kitab) Beliau berkata, ‚selain keadaan darurat, tidak diperkenankan bagi laki-laki dan perempuan untuk menggunakan sesuatu dari wadah- wadah yang terbuat dari emas dan perak. Tidak untuk makan, minum dan selain keduanya"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:siwak",
+    "patterns": [
+        "apa itu fasal tentang siwak",
+        "apa penjelasan fasal siwak",
+        "apakah boleh bersiwak",
+        "apakah hukum bersiwak"
+    ],
+    "responses": [
+        "Fasal menjelaskan tentang menggunakan alat siwak. Bersiwak termasuk salah satu kesunnahan wudu’. Siwak juga diungkapan untuk barang yang digunakan bersiwak, yaitu kayu arak dan sesamanya. Hukum bersiwak adalah sunnah pada semua keadaan. Siwak dimakhrukhan saat matahari sudah tergelicir atau lewat tengah hari bagi orang yang berpuasa. Tata cara bersiwak yaitu Saat bersiwak disunnahkan untuk niat sunnah siwakan, bersiwak dengan tangan kanan, memulai dari mulut bagian kanan, dan menjalankan siwak secara lembut ke bagian langit-langit tenggorokan dan gigi-gigi geraham."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:wudhu",
+    "patterns": [
+        "apa itu fasal tentang wudhu",
+        "apa penjelasan fasal wudhu",
+        "apa saja fardhunya wudhu",
+        "sebutkan fardhunya wudhu",
+        "apa saja sunnahnya berwudhu",
+        "sebutkan sunnah wudhu"
+    ],
+    "responses": [
+        "Fasal menjelaskan tentang fardhu-fardhu (kewajiban) dalam wudhu dan kesunahan dalam wudhu. Fardhu wudhu ada 6 yaitu; 1. Niat ( ketika membasuh wajah), 2. Mebasuh wajah, 3. Membasuh kedua sampai kedua siku, 4. Mengusap sebagian kepala atau rambut, 5. Membasuk kaki sampai mata kaki, 6. Tertib atau berurutan. Adapun kesunahan dalam wudhu ada 10 yaitu; 1. Membaca basmallah, 2. Membasuk kedua telapak tangan, 3. Berkumur, 4. Menghisap air dengan hidung, 5. Mengusap seluruh kepala, 6. Mengusap kedua daun telinga, 7. Menyela-nyela jenggot, 8. Mendahulukan anggota kanan dari anggota kiri, 9. Mengulang tiga kali pada setiap basuhan, 10. Berkesinambugan ( antar satu fadhu dengan fardhu lain tidak ada tenggang waktu)."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:istinja_cebok",
+    "patterns": [
+        "apa itu fasal tentang istinja",
+        "apa penjelasan fasal istinja",
+        "apa itu fasal tentang cebok",
+        "apa penjelasan fasal cebpk"
+    ],
+    "responses": [
+        "Istinja atau cebok adalah hal yang wajib dilakukan setelah hadats kecil ( buang air kecil atau besar). Cara yang lebih utama dalam istinja yaitu dengan menggunkan tiga batu lalu diikuti dengan air. Orang yang beristinja diperbolehkan untuk memiih menggunkan air saja atau dengan 3 batu yang dapat membersihkan tempat keluarnya najis. Akan tetapi lebih diutamakan menggukan air (jika dikehendaki salah satunya saja). "
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:batal_wudhu",
+    "patterns": [
+        "apa itu fasal tentang perkara yang membatalkan wudhu",
+        "apa saja yang dapat membatalkan wudhu",
+        "apa yang membatalkan wudhu"
+    ],
+    "responses": [
+        "Hal-hal yang dapat membatalkan wudhu ada 6 (enam) yaitu; 1. Keluarnya sesuatu dari qubul dan dubur kecuali mani, 2. Tidur dalam keadaan duduk yang tidak menempatkan pantatnya pada tempat duduknya, 3. Hilangnya akal sebab mabuk atau sakit, 4. Bersentuhannya lelaki dan perempuan yang bukan mahrom tanpa ada penghalag, 5. Menyentuh kemaluan manusia dengan telapak tangan, 6. Menyentuh dubur (menurut imam syafii dalam qoul jadid). "
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:mandi_junub",
+    "patterns": [
+        "apa itu mandi junub",
+        "apa saja yang menyebabkan mandi junub",
+        "apa yang mewajibkan kita untuk mandi junub",
+        "apasaja yang membuat mandi junub"
+    ],
+    "responses": [
+        "Hal-hal yang membuat mandi wajib atau junub ada 6 (enam) yaitu; untuk laki-laki dan perempuan; 1. Bertemunya dua kelamin (berhubungan badan), 2. Keluarnya mani, 3. Mati atau meninggal (kecuali orang yang Syahid). Adapun tambahan khusus untuk perempuan yaitu; 1. Haid, 2. Nifas, 3. Melahirkan. "
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:mandi_junub2",
+    "patterns": [
+        "apa itu fardhu mandi junub",
+        "apa saja fardhu mandi junub"
+    ],
+    "responses": [
+        "Fardhu mandi junub ada tiga yaitu; 1. Niat, 2. Menghilangkan najis (jika ada), 3. Meratakan air keseluruh rambut dan kulit. Adapaun sunnah dalam mandi ada lima macam antara lain; 1. Membaca basmallah, 2. Wudhu sebelum mandi, 3. Menggosokkan tangan keseluruh badan, 4. Berkesinambungan, 5. Mendahulukan anggota kanan. "
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:mandi_sunnah",
+    "patterns": [
+        "apa itu mandi sunnah",
+        "apa saja mandi sunnah"
+    ],
+    "responses": [
+        "Adapun waktu-waktu yang disunnahkan untuk mandi yaitu; 1. Mandi untuk sholat Jumat, 2. Mandi untuk dua hari raya (idul Fitri dan idul adha), 3. Mandi istisqa (memohon minta hujan), 4. Mandi Khusuf (gerhana bulan), 5. Mandi kusuf (gerhana matahari), 6. Mandi setelah selesai memandikan jenazah baik muslim atau kafir, 7. Mandinya orang kafir yang masuk islam, 8. Mandi bagi orang yang sembuh dari penyakit gila, 9. Mandi bagi orang yang sadar dari pingsan, 10. Mandi orang yang ihram, 11. Mandi karena hendak masuk ke Makkah, 12. Mandi untuk wukuf di arafah, 13. Mandi untuk bermalam di Muzdalifah, 14. Mandi untuk melempar jumrah, 15. Mandi ketika hendak Thawaf, 16. Mandi untuk sai (lari kecil antara bukit safa dan marwah), 17. Mandi ketika hendak masuk Madinah."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:muzah",
+    "patterns": [
+        "apa itu muzah",
+        "apa yang dimaksud muzah",
+        "apakah boleh mengusap kaos kaki saat berwudhu",
+        "hukum mengusap kaos kaki saat wudhu"
+    ],
+    "responses": [
+        "Mengusap muzah (kaos kaki) saat berwudhu hukumnya diperbolehkan dengan syarat; 1. Pemakaian muzah (kaos kaki) mulai dilakukan setelah sempurna bersuci, 2. Muzah tersebut dapat menutupi anggota kaki yang wajib dibasuh saat berwudhu, 3. Muzah harus kuat sekiranya dapat digunakan berkali-kali. Masa yang diperbolehkan dalam mengusap muzah bagi orang yang mukim adalah sehari semalam dan bagi musafir adalah tiga hari tiga malam. Pengusapan muzah batal sebab tiga hal; 1. Terlepasnya muzah, 2. Habisnya masa waktu, 3. Terjadi hal yang mewajibkan mandi."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:tayamum",
+    "patterns": [
+        "apa itu Tayamum",
+        "apa yang dimaksud tayamum"
+    ],
+    "responses": [
+        "Tayammum secara bahasa bermakna menyengaja. Dan secara syara adalah mendatangkan debu suci mensucikan pada wajah dan kedua tangan sebagai pengganti dari wudlu, mandi atau membasuh anggota dengan syarat-syarat tertentu. Syarat-syarat untuk tayamum ada lima perkara yaitu; 1. Adanya halangan sebab berpergian atau sakit, 2. Masuknya waktu sholat, 3. Adanya usaha untuk mencari air terlebih dahulu, 4. Adanya kesulitan menggunakan air tersebut, 5. Menggunakan debu yang suci. Adapun fardhu-fardhu tayamum ada empat hal; 1. Niat, 2. Mengusap wajah, 3. Mengusap kedua tangan sampai siku, 4. Tertib.  "
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:Najis_Pensuciannya_1",
+    "patterns": [
+        "apa itu najis",
+        "apa yang dimaksud najis"
+    ],
+    "responses": [
+        "Najis secara bahasa adalah sesuatu yang dianggap menjijikkan. Dan secara syara adalah setiap benda yang haram digunakan secara mutlak dalam keadaan normal beserta mudah untuk dibedakan, bukan karena kemuliannya, menjijikkannya dan bukan karena berbahaya pada badan atau akal."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:Najis_Pensuciannya_2",
+    "patterns": [
+        "apa saja macam najis",
+        "apa saja yang termasuk najis"
+    ],
+    "responses": [
+        "Semua benda yang keluar dari dua jalan (qubul dan dubur) hukumnya najis kecuali mani, adapun membasuh sesuatu yang terkena air kencing atau tahi itu wajib kecuali yang terkena kencingnya anak kecil laki-laki yang belum sampai usia 2 tahun serta belum makan apapun kecuali air susu ibunya, maka membersihkan cukup dengan memercikan air pada tempat atau benda yang terkena. Tidak ada najis yang dima’fu (dimaafkan) kecuali darah atau nanah yang sedikit. Semua hewan dianggap suci kecuali anjing dan babi atau keturunannya. Semua bangkai itu najis kecuali manusia, ikan, belalang."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:Haid_Nifas_istihadhoh",
+    "patterns": [
+        "apa saja macam najis",
+        "apa saja yang termasuk najis"
+    ],
+    "responses": [
+        "Semua benda yang keluar dari dua jalan (qubul dan dubur) hukumnya najis kecuali mani, adapun membasuh sesuatu yang terkena air kencing atau tahi itu wajib kecuali yang terkena kencingnya anak kecil laki-laki yang belum sampai usia 2 tahun serta belum makan apapun kecuali air susu ibunya, maka membersihkan cukup dengan memercikan air pada tempat atau benda yang terkena. Tidak ada najis yang dima’fu (dimaafkan) kecuali darah atau nanah yang sedikit. Semua hewan dianggap suci kecuali anjing dan babi atau keturunannya. Semua bangkai itu najis kecuali manusia, ikan, belalang."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "sholat",
+    "patterns": [
+        "Jelaskan tentang bab sholat",
+        "apa itu bab sholat",
+        "apa isi dari bab sholat",
+        "berikan penjelasan tentang bab sholat",
+        "bab sholat"
+    ],
+    "responses": [
+        "Bab Sholat adalah bab yang menerangkan tentang Syarat Wajib Sholat, Syarat Sah Sholat, Rukun Sholat, Perbedaan Antara Laki-laki dan Perempuan dalam Sholat, Hal-Hal yang membatalkan sholat, Jumlah Rakaat Shalat, Qoshor dan Jama' Shalat, Shalat Jum'at, Shalat Ied, Shalat Gerhana, Shalat Istisqo, Shalat Khauf, Hukum Sutra dan Perhiasan, Hal-hal yang berhubungan dengan jenazah, "
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "zakat",
+    "patterns": [
+        "Jelaskan tentang bab zakat",
+        "apa itu bab zakat",
+        "apa isi dari bab zakat",
+        "berikan penjelasan tentang bab zakat",
+        "bab zakat"
+    ],
+    "responses": [
+        "Bab Zakat adalah bab yang membahasa tentang Nishab dan kadar Zakat Unta, Nishab dan Kadar Zakat Sapi, Nishab dan Kadar Zakat Kambing, Zakat Persekutuan, Zakat Emas dam Perak, Zakat Pertanian, Zakat Dagangan, Syarat Wajib Zakat Fitrah, Penerima Zakat."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "puasa",
+    "patterns": [
+        "Jelaskan tentang bab puasa",
+        "apa itu bab puasa",
+        "apa isi dari bab puasa",
+        "berikan penjelasan tentang bab puasa",
+        "bab puasa"
+    ],
+    "responses": [
+        "Bab Puasa menjelaskan tentang Syarat dan Rukun Puasa, Perkara yang membatalkan Puasa, Sunah Puasa, Hari - hari yang diharamkan Puasa, Kafarat dan Uzur meninggalkan Puasa, I'tikaf"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "Haji",
+    "patterns": [
+        "Jelaskan tentang bab Haji",
+        "apa itu bab Haji",
+        "apa isi dari bab Haji",
+        "berikan penjelasan tentang bab Haji",
+        "bab Haji"
+    ],
+    "responses": [
+        "Bab Haji menjelaskan tentang Syarat Rukun Haji dan Umrah, Wajib dan Sunnah Haji, Larangan bagi orang yang Ihram, Konsekwensi Pelanggaran, "
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "Jual Beli",
+    "patterns": [
+        "Jelaskan tentang bab jual beli dan akad muamalah",
+        "apa itu bab jual beli dan akad muamalah",
+        "apa isi dari bab jual beli dan akad muamalah",
+        "berikan penjelasan tentang bab jual beli dan akad muamalah",
+        "bab jual beli dan akad muamalah"
+    ],
+    "responses": [
+        "Bab Jual beli dan Akad Muamalah adalah bab yang menjelaskan tentang Riba, Khiyar, Salam, Gadai, Orang yang tercegah tasyarufnya, Perdamaian, Perpindahan Hutang, Menanggung Hutang, Jaminan, Perserikatan, Perwakilan, Pengakuan, Pinjaman, Ghasab, Hak Pembelian, Bagi Hasil, Musaqah, Persewaan, Sayembara, Muzaraah, Membuka Lahan Baru, Wakaf, Pemberian, Barang Temuan, Anak Temuan, Titipan"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "mawaris",
+    "patterns": [
+        "Jelaskan tentang bab Mawaris dan Wasiat",
+        "apa itu bab Mawaris dan Wasiat",
+        "apa isi dari bab Mawaris dan Wasiat",
+        "berikan penjelasan tentang bab Mawaris dan Wasiat",
+        "bab Mawaris dan Wasiat"
+    ],
+    "responses": [
+        "Bab Mawaris dan Wasiat adalah bab yang menjelaskan tentang Ahli Waris, Hak Waris, Bagian Ashabah, Bagian Pasti, Bagian Seperdua dan Seperempat, bagian seperdelapan, Sepertiga, Dua pertiga, Seperenam, Hijab, Wasiat."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "Nikah",
+    "patterns": [
+        "Jelaskan tentang bab Hukum Nikah",
+        "apa itu bab Hukum Nikah",
+        "apa isi dari bab Hukum Nikah",
+        "berikan penjelasan tentang bab Hukum Nikah",
+        "bab Hukum Nikah"
+    ],
+    "responses": [
+        "Bab Hukum Nikah menjelaskan tentang Pernikahan, Hukum melihat wanita, Syarat Pernikahan, Wali Nikah, Hukum Lamaran, Mahram, Aib Nikah, Maskawin, Resepsi pernikahan, Penggiliran Istri, Khulu, Perceraian, Hak Talak, Ruju, Sumpah Ila, Dhihar, Li'an, Iddah, Hak Perempuan Iddah, Istibra', Radla, Nafkah, Hak Asuh Anak."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "pidana",
+    "patterns": [
+        "Jelaskan tentang bab Hukuman dan Tindak Pidana",
+        "apa itu bab Hukuman dan Tindak Pidana",
+        "apa isi dari bab Hukuman dan Tindak Pidana",
+        "berikan penjelasan tentang bab Hukuman dan Tindak Pidana",
+        "bab Hukuman dan Tindak Pidana"
+    ],
+    "responses": [
+        "Bab Tindak Pidana menjelaskan tentang Macam-macam Pembunuhan, Syarat Qishosh, Macam-macam Diyat, Diyat anggota badan, Tuduhan Pembunuhan"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "hukuman",
+    "patterns": [
+        "Jelaskan tentang bab Hukuman",
+        "apa itu bab Hukuman",
+        "apa isi dari bab Hukuman",
+        "berikan penjelasan tentang bab Hukuman",
+        "bab Hukuman"
+    ],
+    "responses": [
+        "Bab Hukuman menjelaskan tentang Pezina, Penuduh Zina, Pemabuk, Pencuri, Perampok, Pembelaan Diri, Pemberontak, Murtad, Orang yang meinggalkan Sholat."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "jihad",
+    "patterns": [
+        "Jelaskan tentang bab Jihad",
+        "apa itu bab Jihad",
+        "apa isi dari bab Jihad",
+        "berikan penjelasan tentang bab Jihad",
+        "bab Jihad"
+    ],
+    "responses": [
+        "Bab Jihad adalah bab yang menjelaskan tentang Ghanimah (Jarahan), Harta Fai', Jizyah (Pajak)."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "binatang",
+    "patterns": [
+        "Jelaskan tentang bab Binatang buruan dan Sembelihan",
+        "apa itu bab Binatang buruan dan Sembelihan",
+        "apa isi dari bab Binatang buruan dan Sembelihan",
+        "berikan penjelasan tentang bab Binatang buruan dan Sembelihan",
+        "bab Binatang buruan dan Sembelihan"
+    ],
+    "responses": [
+        "Bab Binatang Buruan dan Sembelihan adalah bab yang menjelaskan tentang Hukum Hewan, Qurban, Aqiqah."
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "perlombaan",
+    "patterns": [
+        "Jelaskan tentang bab Perlombaan dan Memanah",
+        "apa itu bab Perlombaan dan Memanah",
+        "apa isi dari bab Perlombaan dan Memanah",
+        "berikan penjelasan tentang bab Perlombaan dan Memanah",
+        "bab Perlombaan dan Memanah"
+    ],
+    "responses": [
+        "Bab Perlombaan dan Memanah adalah bab yang menjelaskan tentang"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "sumpah dan nadzar",
+    "patterns": [
+        "Jelaskan tentang bab Sumpah dan Nadzar",
+        "apa itu bab Sumpah dan Nadzar",
+        "apa isi dari bab Sumpah dan Nadzar",
+        "berikan penjelasan tentang bab Sumpah dan Nadzar",
+        "bab Sumpah dan Nadzar"
+    ],
+    "responses": [
+        "Bab Sumpah dan Nadzar adalah Bab yang menjelaskan tentang Sumpah dan Nadzar"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "peradilan",
+    "patterns": [
+        "Jelaskan tentang bab Peradilan dan Persaksian",
+        "apa itu bab Peradilan dan Persaksian",
+        "apa isi dari bab Peradilan dan Persaksian",
+        "berikan penjelasan tentang bab Peradilan dan Persaksian",
+        "bab Peradilan dan Persaksian"
+    ],
+    "responses": [
+        "Bab Peradilan dan Persaksian adalah bab yang menjelaskan tentang Syarat hakim, Larangan Bagi Hakim, Pembagi Harta, Dakwaan, Persaksian, Macam-macam Hak"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "budak",
+    "patterns": [
+        "Jelaskan tentang bab Budak",
+        "apa itu bab Budak",
+        "apa isi dari bab Budak",
+        "berikan penjelasan tentang bab Budak",
+        "bab Budak"
+    ],
+    "responses": [
+        "Bab Budak adalah bab yang menjelaskan tentang Wala', Mudabbar, Mukatab, Ummul Walad"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "penghormatan",
+    "patterns": [
+        "oke",
+        "oke",
+        "kerja bagus",
+        "bagus sekali",
+        "kerja bagus",
+        "Terima kasih untuk bantuannya",
+        "Terima kasih",
+        "tidak apa-apa",
+        "Terima kasih",
+        "Kerja bagus",
+        "k",
+        "Oke",
+        "Oke"
+    ],
+    "responses": [
+        "Aku senang bisa membantumu",
+        "selamat datang, ada lagi yang bisa saya bantu?"
+    ],
+    "context_set": ""
+ },
+  {
+    "tag": "task",
+    "patterns": [
+        "apa yang bisa kau lakukan",
+        "apa hal yang dapat kamu lakukan",
+        "hal yang dapat kamu lakukan",
+        "apa yang bisa kamu lakukan untukku",
+        "bagaimana kamu bisa membantuku",
+        "kenapa aku harus memanfaatkanmu"
+    ],
+    "responses": [
+        "Saya bisa menjawab pertanyaan mengenai seputar Fiqih dari kitab Fathul Qorib",
+        "Kamu bisa bertanya padaku tentang kitab fathul Qorib, dan aku akan mencoba menjawabnya"
+    ],
+    "context_set": ""
+ }
+ ]
+ }
