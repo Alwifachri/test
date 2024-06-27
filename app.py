@@ -56,16 +56,17 @@ def chat():
     # Directly use the label if the classifier returns the correct intent
     if predicted_label in label2id:
         intent_tag = predicted_label
-    else:
-        # Handle potential mismatches or unexpected label formats
-        intent_tag = id2label[int(predicted_label.split('_')[-1])] if predicted_label.split('_')[-1].isdigit() else 'unknown'
 
-    # Get a random response from the corresponding intent
-    response = "maaf aku tidak paham."
+        # Get a random response from the corresponding intent
     for intent in intents['intents']:
         if intent['tag'] == intent_tag:
             response = random.choice(intent['responses'])
             break
+        
+    else:
+        # Handle potential mismatches or unexpected label formats
+        intent_tag = id2label[int(predicted_label.split('_')[-1])] if predicted_label.split('_')[-1].isdigit() else 'unknown'
+        response = "maaf aku tidak paham."
 
     return jsonify({"response_text": response})
 

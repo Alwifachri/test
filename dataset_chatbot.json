@@ -132,7 +132,7 @@
         "bab bersuci"
     ],
     "responses": [
-        "Bab Bersuci atau Thaharah adalah bab yang menerangkan tentang melakukan sesuatu dengan tujuan untuk membersihkan diri dari hadats kecil dan besar yang bertujuan untuk menjadi syarat sah dalam beribadah"
+        "Bab Bersuci atau Thaharah adalah bab yang menerangkan tentang melakukan sesuatu dengan tujuan untuk membersihkan diri dari hadats kecil dan besar yang bertujuan untuk menjadi syarat sah dalam beribadah. dalam bab ini berisi beberapa fasal - fasal antara lain: 1. fasal hukum bangkai, 2.fasal perabot yang haram digunakan, 3. fasal siwak,4. fasal wudhu, 5. fasal cebok dan adab buang air, 6.fasal perkara yang membatalkan wudhu, 7.fasal yang mewajibkan mandi, 8.fasal rukun dan sunah mandi, 9. fasal mandi sunah, 10. fasal memakai mmuzah, 11.fasal tayamum, 12. fasal najis dan cara penyuciannya, 13. fasal haid nifas dan istihadhoh"
     ],
     "context_set": ""
  },
@@ -405,6 +405,163 @@
     ],
     "responses": [
         "Bab Sholat adalah bab yang menerangkan tentang Syarat Wajib Sholat, Syarat Sah Sholat, Rukun Sholat, Perbedaan Antara Laki-laki dan Perempuan dalam Sholat, Hal-Hal yang membatalkan sholat, Jumlah Rakaat Shalat, Qoshor dan Jama' Shalat, Shalat Jum'at, Shalat Ied, Shalat Gerhana, Shalat Istisqo, Shalat Khauf, Hukum Sutra dan Perhiasan, Hal-hal yang berhubungan dengan jenazah, "
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "sholat_wajib",
+    "patterns": [
+        "Jelaskan tentang sholat yang wajib dikerjakan",
+        "jelaskan tentang sholat wajib ",
+        "apa saja yang termasuk sholat wajib",
+        "berikan penjelasan tentang sholat wajib",
+        "sholat wajib"
+    ],
+    "responses": [
+        "Sholat yang wajib dikerjakan ada 5, yaitu ; 1. Sholat Dzuhur : waktunya dimulai dari condongnya matahari ke arah barat sampai ukuran bayangan suatu benda sama dengan bendanya  tersebut. 2. Sholat Ashar: waktunya dimulai setelah sehabis waktu dzuhur ( sekiranya bayangan suatu benda melebihi benda tersebut) sampai panjang  bayangan itu dua kali lipat bendanya. 3. Sholat Magrib : waktunya hanya satu yaitu setelah terbenamnya matahari sekiranya waktu tersebut cukup untuk adzan, wudhu, menutup aurot, iqomah, dan sholat. 4. Sholat Isya : waktunya dimulai ketika awan merah sudah hilang sampai sepertiga malam. 5. Sholat Subuh : waktunya dimulai ketika telah terbit fajar shodiq sampai muncul cahaya kekuningan (cahaya terang sebelum matahari terbit)."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "syarat_wajib_sholat",
+    "patterns": [
+        "Jelaskan tentang syarat wajib sholat",
+        "apa itu syarat wajib sholat",
+        "apa saja yang termasuk syarat wajib sholat",
+        "berikan penjelasan tentang syarat wajib sholat",
+        "syarat wajib sholat"
+    ],
+    "responses": [
+        "syarat wajib sholat ada 3 yaitu : 1. beragam islam, 2. sudah baligh. 3. berakal. Ketiga syarat tersebut merupakan definisi dari mukallaf (Orang yang sudah dikenakan."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "syarat_sah_sholat",
+    "patterns": [
+        "Jelaskan tentang syarat sah sholat",
+        "apa itu syarat sah sholat",
+        "apa saja yang termasuk syarat sah sholat",
+        "berikan penjelasan tentang syarat sah sholat",
+        "syarat sah sholat"
+    ],
+    "responses": [
+        "Syarah sah Sholat ada 5 yaitu: 1. Anggota badan harus suci dari hadats dan najis, 2. Menutup aurat dengan pakaian yang suci, 3. Tempatnya Suci, 4. Mengetahui waktu masuknya sholat, 5. Menghadap Kiblat."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "rukun_sholat",
+    "patterns": [
+        "Jelaskan tentang rukun sholat",
+        "apa itu rukun sholat",
+        "apa saja yang termasuk rukun sholat",
+        "berikan penjelasan tentang rukun sholat",
+        "rukun sholat"
+    ],
+    "responses": [
+        "rukun - rukun sholat ada 18, yaitu: 1. Niat, 2. Berdiri (bila mampu), 3. Takbiratul Ikrom, 4. Membaca Al-Fatihah, 5. Ruku, 6. Tuma'ninah ketika ruku, 7. I'tidal (berdiri dari ruku), 8. Tuma'ninah ketika I'tidal, 9. Sujud, 10. Tuma'ninah ketika sujud, 11. duduk diantara dua sujud, 12. Tuma'ninah ketika duduk diantara dua sujud, 13. Duduk Tasyahud Akhir, 14. Tasyahud Akhir, 15. Membaca Sholawat atas nabi, 16. Mengucap salam yang pertama, 17. Niat keluar dari sholat, 18. Tertib."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "perbedaan_laki2_perempuan_dalam_sholat",
+    "patterns": [
+        "Jelaskan tentang perbedaan laki-laki dan perempuan dalam sholat",
+        "apa perbedaan laki -laki dan perempuan dalam sholat",
+        "apa saja perbedaan laki-laki dan perempuan dalam sholat",
+        "perbedaan laki-laki dan perempuan dalam sholat"
+    ],
+    "responses": [
+        "Perbedaan laki-laki dan perepuan dalam sholat ada 5 yaitu: untuk laki-laki: 1. Merenggangkan siku dari lambung, 2. Mengangkat perut dari kedua paha ketika ruku dan sujud, 3. mengeraskan suara pada tempatnya, 4. Apabila terjadi kesalahan atau kelupaan pada imam mengingatkan dengan membaca tasbih, 5. Auratnya adalah seluruh anggota tubuh antara pusar dan hingga lutut. Untuk Perempuan : 1 dan 2. Mengumpulkan sebagian anggotanya pada sebagian yang lain (menempelkan kedua siku pada lambung dan menempelkan perut pada kedua paha ketika ruku dan sujud), 3. mengecilkan volume suara pada tempatnya ketika ada laki-laki yang bukan mahromnya, 4. Apabila terjadi kesalahan atau kelupaan dari imam ketika sholat maka tepuk tangan, 5. seluruh anggota tubuh perempuan yang merdeka (bukan budak) adalah aurot kecuali wajah dan telapak tangan, untuk budak perempuan auratnya sama seperti sebagaimana laki-laki."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "hal_batal_sholat",
+    "patterns": [
+        "Jelaskan tentang hal-hal yang membatalkan sholat",
+        "apa yang bisa membatalkan sholat",
+        "apa saja hal yang membatalkan sholat",
+        "hal - hal yang membatalakan sholat"
+    ],
+    "responses": [
+        "perkara yang membatalkan sholat ada 11 yaitu: 1. Berbicara dengan sengaja, 2. Melakukan gerakan tiga kali berturut-turut, 3. Punya Hadats (kecil atau besar), 4. Terkena Najis, 5. Terbukanya Aurot, 6. Berubahnya niat, 7. Membelakangi kiblat, 8. Makan, 9. Minum, 10. Tertawa, 11. Murtad."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "jumlah_rakaat_sholat",
+    "patterns": [
+        "Jelaskan tentang jumlah rokaat pada sholat",
+        "ada berapa jumlah rakaat pada shalat",
+        "berapa jumlah rakaat pada shalat"
+    ],
+    "responses": [
+        "Jumlah rakaat pada shalat fardhu dalam sehari semalam ada 17 rakaat. yaitu dua rakaat shalat subuh, empat rakaat sholat dzuhur, empat rokaat sholat ashar, tiga rokaat shalat magrib, empat rokaat shalat isya."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "perkara_yang_tertinggal_dalam_sholat",
+    "patterns": [
+        "Jelaskan tentang fasal perkara yang tertinggal dalam sholat",
+        "apa itu perkara yang tertinggal dalam sholat",
+        "apa saja perkara yang tertinggal dalam sholat"
+    ],
+    "responses": [
+        "Perkara yang tertinggal dalam sholat diperinci menjadi 3 aspek yaitu: 1. Apabila yang ditinggalkan adalah sesuatu yang fardhu (rukun) sholat, maka tidak bisa diganti dengan sujud sahwi, akan tetapi jika orang yang sholat ingat dalam waktu yang dekat maka ia harus melakukan rukun yang ia tinggalkan dan meneruskan sholat dan melakukan sujud sahwi. 2. Apabila yang ditinggalkan adalah sesuatu yang sunah ab'at maka orang yang sholat tidak boleh kembali mengerjakan sesuatu yang tertinggal jika ia telah melakukan rukun yang selanjutnya akan tetapi ia disunahkan untuk mengganti dengan sujud sahwi. 3. Apabila yang tertinggal adalah sunnah hai'at maka orang yang sholat tidak diperbolehkan melakukan kembali rukun yang tertinggal dan tidak pula melakukan sujud sahwi."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "waktu_makhruh_sholat",
+    "patterns": [
+        "Jelaskan tentang waktu makhruh sholat",
+        "apa itu waktu makhruh sholat",
+        "apa saja waktu makhruh sholat",
+        "waktu makhruh sholat"
+    ],
+    "responses": [
+        "waktu yang dimakhruhkan sholat tanpa sebab ada 5 waktu yaitu: 1. Setelah sholat subuh dan sampai terbitnya matahari, 2. Ketika terbitnya matahari sampai tinggi matahari kira-kira satu tombak, 3. Waktu Istiwa sampai tergesernya matahari, 4. Setelah sholat ashar sampai terbenam matahari. 5. ketika terbenam matahari."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "sholat_jamaah",
+    "patterns": [
+        "Jelaskan tentang sholat jamaah",
+        "apa itu sholat jamaah",
+        "apa saja sholat jamaah",
+        "sholat jamaah"
+    ],
+    "responses": [
+        "Hukum Sholat berjama'ah adalah sunnah muakad, bagi seorang makmum diwajibkan untuk berniat ikut imam, dalam berjamaah orang yang merdeka diperbolehkan untuk bermakmum kepada seorang hamba sahaya, tidak sah bagi laki-laki yang makmum kepada perempuan begitu pula orang yang bagus bacaannya kepada orang yang tidak bagus bacaannya."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "meringkas_dan_mengumpulakn_sholat",
+    "patterns": [
+        "Jelaskan tentang meringkas dan mengumpulkan sholat",
+        "apa itu meringkas dan mengumpulkan sholat",
+        "apa saja meringkas dan mengumpulkan sholat",
+        "meringkas dan mengumpulkan sholat"
+    ],
+    "responses": [
+        "Seorang musafir diperbolehkan untuk meringkas (qoshor) dan mengumpulkan (Jama') sholat. diperbolehkan kepada musafir untuk meringkas sholat yang empat rokaat menjadi dua rokaat dengan 5 syarat; 1. Berpergian tidak untuk maksiat, 2. Jarak perjalanan minimal 16 pos (120 KM), 3. shalat yang diringkas adalah sholat yang 4 rokaat, 5. tidak bermakmum kepada orang yang sempurna sholatnya (tidak di qoshor). Musafir jga diperbolehkan untuk menjama' (mengumpulakan) dua shalat (dzuhur dengan ashar dan mangrib dengan isya) pada salah satu waktu dengan jama' taqdim atau dengan jama' ta'khir."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "shalat_jumat",
+    "patterns": [
+        "Jelaskan tentang shalat jumat",
+        "apa itu shalat jumat",
+        "shalat jumat"
+    ],
+    "responses": [
+        "Syarat wajib shalat jumat ada 7 yaitu: 1. Islam, 2. Baligh, 3. Berakal, 4. Merdeka, 5. Laki-laki, 6. Sehat 7. Penduduk Setempat. Syarat sah melakukan sholat jumat ada tiga yaitu: dilakukan disebuah desa atau kota, jamaahnya minimal berjumlah 40 laki-laki yang baligh, dilaksanakan pada waktu dzuhur."
     ],
     "context_set": ""
  },
