@@ -125,11 +125,11 @@
   {
     "tag": "bersuci",
     "patterns": [
-        "Jelaskan tentang bab bersuci",
-        "apa itu bab bersuci",
-        "apa isi dari bab bersuci",
-        "berikan penjelasan tentang bab bersuci",
-        "bab bersuci"
+        "Jelaskan tentang bab bersuci atau thaharah",
+        "apa itu bab bersuci atau thaharah",
+        "apa isi dari bab bersuci thaharah",
+        "berikan penjelasan tentang bab bersuci atau thaharah",
+        "bab bersuci atau thaharah"
     ],
     "responses": [
         "Bab Bersuci atau Thaharah adalah bab yang menerangkan tentang melakukan sesuatu dengan tujuan untuk membersihkan diri dari hadats kecil dan besar yang bertujuan untuk menjadi syarat sah dalam beribadah. dalam bab ini berisi beberapa fasal - fasal antara lain: 1. fasal hukum bangkai, 2.fasal perabot yang haram digunakan, 3. fasal siwak,4. fasal wudhu, 5. fasal cebok dan adab buang air, 6.fasal perkara yang membatalkan wudhu, 7.fasal yang mewajibkan mandi, 8.fasal rukun dan sunah mandi, 9. fasal mandi sunah, 10. fasal memakai mmuzah, 11.fasal tayamum, 12. fasal najis dan cara penyuciannya, 13. fasal haid nifas dan istihadhoh"
@@ -255,10 +255,12 @@
         "apa itu fasal tentang siwak",
         "apa penjelasan fasal siwak",
         "apakah boleh bersiwak",
-        "apakah hukum bersiwak"
+        "apakah hukum bersiwak",
+        "kapan siwak dihukumi makhruh",
+        "bagaimana tata cara bersiwak"
     ],
     "responses": [
-        "Fasal menjelaskan tentang menggunakan alat siwak. Bersiwak termasuk salah satu kesunnahan wudu’. Siwak juga diungkapan untuk barang yang digunakan bersiwak, yaitu kayu arak dan sesamanya. Hukum bersiwak adalah sunnah pada semua keadaan. Siwak dimakhrukhan saat matahari sudah tergelicir atau lewat tengah hari bagi orang yang berpuasa. Tata cara bersiwak yaitu Saat bersiwak disunnahkan untuk niat sunnah siwakan, bersiwak dengan tangan kanan, memulai dari mulut bagian kanan, dan menjalankan siwak secara lembut ke bagian langit-langit tenggorokan dan gigi-gigi geraham."
+        "Fasal menjelaskan tentang menggunakan alat siwak. Bersiwak termasuk salah satu kesunnahan wudhu. Siwak juga diungkapan untuk barang yang digunakan bersiwak, yaitu kayu arak dan sesamanya. Hukum bersiwak adalah sunnah pada semua keadaan. Siwak dimakhrukhan saat matahari sudah tergelicir atau lewat tengah hari bagi orang yang berpuasa. Tata cara bersiwak yaitu Saat bersiwak disunnahkan untuk niat sunnah siwakan, bersiwak dengan tangan kanan, memulai dari mulut bagian kanan, dan menjalankan siwak secara lembut ke bagian langit-langit tenggorokan dan gigi-gigi geraham."
     ],
     "context_set": ""
  },
@@ -273,7 +275,7 @@
         "sebutkan sunnah wudhu"
     ],
     "responses": [
-        "Fasal menjelaskan tentang fardhu-fardhu (kewajiban) dalam wudhu dan kesunahan dalam wudhu. Fardhu wudhu ada 6 yaitu; 1. Niat ( ketika membasuh wajah), 2. Mebasuh wajah, 3. Membasuh kedua sampai kedua siku, 4. Mengusap sebagian kepala atau rambut, 5. Membasuk kaki sampai mata kaki, 6. Tertib atau berurutan. Adapun kesunahan dalam wudhu ada 10 yaitu; 1. Membaca basmallah, 2. Membasuk kedua telapak tangan, 3. Berkumur, 4. Menghisap air dengan hidung, 5. Mengusap seluruh kepala, 6. Mengusap kedua daun telinga, 7. Menyela-nyela jenggot, 8. Mendahulukan anggota kanan dari anggota kiri, 9. Mengulang tiga kali pada setiap basuhan, 10. Berkesinambugan ( antar satu fadhu dengan fardhu lain tidak ada tenggang waktu)."
+        "Fasal menjelaskan tentang fardhu-fardhu (kewajiban) dalam wudhu dan kesunahan dalam wudhu. Fardhu wudhu ada 6 yaitu; 1. Niat (ketika membasuh wajah), 2. Mebasuh wajah, 3. Membasuh kedua tangan sampai kedua siku, 4. Mengusap sebagian kepala atau rambut, 5. Membasuh kedua kaki sampai mata kaki, 6. Tertib atau berurutan. Adapun kesunahan dalam wudhu ada 10 yaitu; 1. Membaca basmallah, 2. Membasuk kedua telapak tangan, 3. Berkumur, 4. Menghisap air dengan hidung, 5. Mengusap seluruh kepala, 6. Mengusap kedua daun telinga, 7. Menyela-nyela jenggot, 8. Mendahulukan anggota kanan dari anggota kiri, 9. Mengulang tiga kali pada setiap basuhan, 10. Berkesinambugan ( antar satu fadhu dengan fardhu lain tidak ada tenggang waktu)."
     ],
     "context_set": ""
  },
@@ -283,10 +285,11 @@
         "apa itu fasal tentang istinja",
         "apa penjelasan fasal istinja",
         "apa itu fasal tentang cebok",
-        "apa penjelasan fasal cebpk"
+        "apa penjelasan fasal cebok",
+        "bagaimana cara istinja atau cebok"
     ],
     "responses": [
-        "Istinja atau cebok adalah hal yang wajib dilakukan setelah hadats kecil ( buang air kecil atau besar). Cara yang lebih utama dalam istinja yaitu dengan menggunkan tiga batu lalu diikuti dengan air. Orang yang beristinja diperbolehkan untuk memiih menggunkan air saja atau dengan 3 batu yang dapat membersihkan tempat keluarnya najis. Akan tetapi lebih diutamakan menggukan air (jika dikehendaki salah satunya saja). "
+        "Istinja atau cebok adalah hal yang wajib dilakukan setelah hadats kecil (buang air kecil atau besar). Cara yang lebih utama dalam istinja yaitu dengan menggunkan tiga batu lalu diikuti dengan air. Orang yang beristinja diperbolehkan untuk memiih menggunkan air saja atau dengan 3 batu yang dapat membersihkan tempat keluarnya najis. Akan tetapi lebih diutamakan menggukan air (jika dikehendaki salah satunya saja). "
     ],
     "context_set": ""
  },
@@ -319,7 +322,8 @@
     "tag": "pasal:mandi_junub2",
     "patterns": [
         "apa itu fardhu mandi junub",
-        "apa saja fardhu mandi junub"
+        "apa saja fardhu mandi junub",
+        "tata cara mandi wajib"
     ],
     "responses": [
         "Fardhu mandi junub ada tiga yaitu; 1. Niat, 2. Menghilangkan najis (jika ada), 3. Meratakan air keseluruh rambut dan kulit. Adapaun sunnah dalam mandi ada lima macam antara lain; 1. Membaca basmallah, 2. Wudhu sebelum mandi, 3. Menggosokkan tangan keseluruh badan, 4. Berkesinambungan, 5. Mendahulukan anggota kanan. "
@@ -354,7 +358,10 @@
     "tag": "pasal:tayamum",
     "patterns": [
         "apa itu Tayamum",
-        "apa yang dimaksud tayamum"
+        "apa yang dimaksud tayamum",
+        "apa saja tata cara tayamum",
+        "apa saja syarat syarat tayamum",
+        "apa saja fardhu tayamum"
     ],
     "responses": [
         "Tayammum secara bahasa bermakna menyengaja. Dan secara syara adalah mendatangkan debu suci mensucikan pada wajah dan kedua tangan sebagai pengganti dari wudlu, mandi atau membasuh anggota dengan syarat-syarat tertentu. Syarat-syarat untuk tayamum ada lima perkara yaitu; 1. Adanya halangan sebab berpergian atau sakit, 2. Masuknya waktu sholat, 3. Adanya usaha untuk mencari air terlebih dahulu, 4. Adanya kesulitan menggunakan air tersebut, 5. Menggunakan debu yang suci. Adapun fardhu-fardhu tayamum ada empat hal; 1. Niat, 2. Mengusap wajah, 3. Mengusap kedua tangan sampai siku, 4. Tertib.  "
@@ -379,18 +386,46 @@
         "apa saja yang termasuk najis"
     ],
     "responses": [
-        "Semua benda yang keluar dari dua jalan (qubul dan dubur) hukumnya najis kecuali mani, adapun membasuh sesuatu yang terkena air kencing atau tahi itu wajib kecuali yang terkena kencingnya anak kecil laki-laki yang belum sampai usia 2 tahun serta belum makan apapun kecuali air susu ibunya, maka membersihkan cukup dengan memercikan air pada tempat atau benda yang terkena. Tidak ada najis yang dima’fu (dimaafkan) kecuali darah atau nanah yang sedikit. Semua hewan dianggap suci kecuali anjing dan babi atau keturunannya. Semua bangkai itu najis kecuali manusia, ikan, belalang."
+        "Semua benda yang keluar dari dua jalan (qubul dan dubur) hukumnya najis kecuali mani, adapun membasuh sesuatu yang terkena air kencing atau tahi itu wajib kecuali yang terkena kencingnya anak kecil laki-laki yang belum sampai usia 2 tahun serta belum makan apapun kecuali air susu ibunya, maka membersihkan cukup dengan memercikan air pada tempat atau benda yang terkena. Tidak ada najis yang dima'fu (dimaafkan) kecuali darah atau nanah yang sedikit. Semua hewan dianggap suci kecuali anjing dan babi atau keturunannya. Semua bangkai itu najis kecuali manusia, ikan, belalang."
     ],
     "context_set": ""
  },
  {
     "tag": "pasal:Haid_Nifas_istihadhoh",
     "patterns": [
-        "apa saja macam najis",
-        "apa saja yang termasuk najis"
+        "apa itu haid",
+        "apa itu nifas",
+        "apa itu istihadhoh",
+        "darah yang keluar bukan pada saat haid"
     ],
     "responses": [
-        "Semua benda yang keluar dari dua jalan (qubul dan dubur) hukumnya najis kecuali mani, adapun membasuh sesuatu yang terkena air kencing atau tahi itu wajib kecuali yang terkena kencingnya anak kecil laki-laki yang belum sampai usia 2 tahun serta belum makan apapun kecuali air susu ibunya, maka membersihkan cukup dengan memercikan air pada tempat atau benda yang terkena. Tidak ada najis yang dima’fu (dimaafkan) kecuali darah atau nanah yang sedikit. Semua hewan dianggap suci kecuali anjing dan babi atau keturunannya. Semua bangkai itu najis kecuali manusia, ikan, belalang."
+        "haid adalah darah yang keluar dari kemaluan perempuan dalam keadaan sehat dan tidak melahirkan, ciri-cirinya berwarna merah kehitaman dan rasanya sakit dan panas. Darah Nifas yaitu darah yang keluar dari rahim perempuan setelah melahirkan. Darah Istihadhoh adalah darah yang keluar pada selain hari-hari haid dan nifas"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:Haid_Nifas_istihadhoh2",
+    "patterns": [
+        "apa ketentuan darah haid",
+        "berapa lama darah haid itu",
+        "berapa lama haid keluar",
+        "umumnya darah haid keluar berapa lama"
+    ],
+    "responses": [
+        "Darah haid minimal keluar selama sehari semalam, maksimal 15 hari 15 malam. Umumnya darah haid keluar 6-7 hari"
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:Haid_Nifas_istihadhoh3",
+    "patterns": [
+        "apa ketentuan darah nifas",
+        "berapa lama darah nifas itu",
+        "berapa lama nifas keluar",
+        "umumnya darah nifas keluar berapa lama"
+    ],
+    "responses": [
+        "Darah nifas minimal keluar setetes, maksimal keluar selama 60 hari. Umumnya darah haid keluar 40 hari"
     ],
     "context_set": ""
  },
@@ -419,6 +454,32 @@
     ],
     "responses": [
         "Sholat yang wajib dikerjakan ada 5, yaitu ; 1. Sholat Dzuhur : waktunya dimulai dari condongnya matahari ke arah barat sampai ukuran bayangan suatu benda sama dengan bendanya  tersebut. 2. Sholat Ashar: waktunya dimulai setelah sehabis waktu dzuhur ( sekiranya bayangan suatu benda melebihi benda tersebut) sampai panjang  bayangan itu dua kali lipat bendanya. 3. Sholat Magrib : waktunya hanya satu yaitu setelah terbenamnya matahari sekiranya waktu tersebut cukup untuk adzan, wudhu, menutup aurot, iqomah, dan sholat. 4. Sholat Isya : waktunya dimulai ketika awan merah sudah hilang sampai sepertiga malam. 5. Sholat Subuh : waktunya dimulai ketika telah terbit fajar shodiq sampai muncul cahaya kekuningan (cahaya terang sebelum matahari terbit)."
+    ],
+    "context_set": ""
+ },
+{
+   "tag": "sholat_wajib2",
+   "patterns": [
+       "Berapa Rakaat sholat dzuhur atau dhuhur",
+       "Berapa Rakaat sholat ashar",
+       "Berapa Rakaat sholat magrib",
+       "Berapa Rakaat sholat isya",
+       "Berapa rakaat sholat subuh"
+   ],
+   "responses": [
+        "Jumlah rakaat dalam shalat wajib atau fardhu: Dhuhur sebanyak 4 rakaat, Ashar sebanyak 4 rakaat, Magrib sebanyak 3 rakaat, Isya sebanyak 4 rakaat, Subuh sebanyak 4 rakaat."
+    ],
+   "context_set": ""
+},
+{
+    "tag": "sholat_sunnah",
+    "patterns": [
+        "apa saja yang termasuk shalat sunnah",
+        "sebutkan macam macam sholat sunnah",
+        "shalat sunnah"
+    ],
+    "responses": [
+        "Shalat sunah rawatib (shalat yang dilakukan beriringan dengan sholat fardhu) jumlahnya ada 17 rakaat dengan perincian, dua rakaat sebelum subuh, empat rakat sebelum shalat dzuhur, dua rakaat setelah shalat dzuhur, empat rakaat sebelum shalat ashar, dua rakaat setelah shalat magrib, tiga rakaat setelah shalat isya"
     ],
     "context_set": ""
  },
@@ -507,7 +568,8 @@
     "patterns": [
         "Jelaskan tentang fasal perkara yang tertinggal dalam sholat",
         "apa itu perkara yang tertinggal dalam sholat",
-        "apa saja perkara yang tertinggal dalam sholat"
+        "apa saja perkara yang tertinggal dalam sholat",
+        "bagaimana bila kita tertinggal rukun shalat"
     ],
     "responses": [
         "Perkara yang tertinggal dalam sholat diperinci menjadi 3 aspek yaitu: 1. Apabila yang ditinggalkan adalah sesuatu yang fardhu (rukun) sholat, maka tidak bisa diganti dengan sujud sahwi, akan tetapi jika orang yang sholat ingat dalam waktu yang dekat maka ia harus melakukan rukun yang ia tinggalkan dan meneruskan sholat dan melakukan sujud sahwi. 2. Apabila yang ditinggalkan adalah sesuatu yang sunah ab'at maka orang yang sholat tidak boleh kembali mengerjakan sesuatu yang tertinggal jika ia telah melakukan rukun yang selanjutnya akan tetapi ia disunahkan untuk mengganti dengan sujud sahwi. 3. Apabila yang tertinggal adalah sunnah hai'at maka orang yang sholat tidak diperbolehkan melakukan kembali rukun yang tertinggal dan tidak pula melakukan sujud sahwi."
@@ -558,10 +620,12 @@
     "patterns": [
         "Jelaskan tentang shalat jumat",
         "apa itu shalat jumat",
-        "shalat jumat"
+        "shalat jumat",
+        "syarat wajib untuk sholat jumat ada berapa",
+        "apa saja syarah sah shalat jumat"
     ],
     "responses": [
-        "Syarat wajib shalat jumat ada 7 yaitu: 1. Islam, 2. Baligh, 3. Berakal, 4. Merdeka, 5. Laki-laki, 6. Sehat 7. Penduduk Setempat. Syarat sah melakukan sholat jumat ada tiga yaitu: dilakukan disebuah desa atau kota, jamaahnya minimal berjumlah 40 laki-laki yang baligh, dilaksanakan pada waktu dzuhur."
+        "Shalat Jumat adalah ibadah wajib bagi laki-laki Muslim dewasa yang telah baligh, berakal, dan mampu melaksanakannya. Shalat ini dilakukan secara berjamaah di masjid atau musala pada hari Jumat, tepat sebelum waktu Dhuhur, dan setelah khotbah Jumat. Shalat Jumat terdiri dari dua rakaat dan menggantikan shalat Dhuhur. Syarat wajib shalat jumat ada 7 yaitu: 1. Islam, 2. Baligh, 3. Berakal, 4. Merdeka, 5. Laki-laki, 6. Sehat 7. Penduduk Setempat. Syarat sah melakukan sholat jumat ada tiga yaitu: dilakukan disebuah desa atau kota, jamaahnya minimal berjumlah 40 laki-laki yang baligh, dilaksanakan pada waktu dzuhur."
     ],
     "context_set": ""
  },
@@ -575,7 +639,20 @@
         "bab zakat"
     ],
     "responses": [
-        "Bab Zakat adalah bab yang membahasa tentang Nishab dan kadar Zakat Unta, Nishab dan Kadar Zakat Sapi, Nishab dan Kadar Zakat Kambing, Zakat Persekutuan, Zakat Emas dam Perak, Zakat Pertanian, Zakat Dagangan, Syarat Wajib Zakat Fitrah, Penerima Zakat."
+        "Bab Zakat adalah bab yang membahaa tentang Nishab dan kadar Zakat Unta, Nishab dan Kadar Zakat Sapi, Nishab dan Kadar Zakat Kambing, Zakat Persekutuan, Zakat Emas dam Perak, Zakat Pertanian, Zakat Dagangan, Syarat Wajib Zakat Fitrah, Penerima Zakat."
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "zakat_fitrah",
+    "patterns": [
+        "Jelaskan tentang zakat fitrah",
+        "apa ketentuan zakat fitrah",
+        "bagaimana cara menentukan zakat fitrah",
+        "syarat-syarat zakat fitrah"
+    ],
+    "responses": [
+        "Zakat fitrah adalah zakat yang diwajibkan kepada setiap Muslim, baik laki-laki maupun perempuan, pada bulan Ramadan saat Idul Fitri. Syarat zakat fitrah yaitu islam, mendapati terbenamnya matahari pada hari terakhir bulan ramadhon, adanya kelebihan harta baginya dan keluarganya untuk hari raya"
     ],
     "context_set": ""
  },
@@ -604,6 +681,20 @@
     ],
     "responses": [
         "Bab Haji menjelaskan tentang Syarat Rukun Haji dan Umrah, Wajib dan Sunnah Haji, Larangan bagi orang yang Ihram, Konsekwensi Pelanggaran, "
+    ],
+    "context_set": ""
+ },
+ {
+    "tag": "pasal:Syarat_haji",
+    "patterns": [
+        "Jelaskan tentang syarat dan rukun haji",
+        "apa itu saja syarat dan rukun haji",
+        "apa saja rukun haji",
+        "berikan penjelasan tentang syarat dan rukun haji dan umrah",
+        "syarat umrah"
+    ],
+    "responses": [
+        "syarat - syarat haji islam, baligh, berakal, merdeka, adanya bekal dan kendaran, aman dalam perjalanan, memungkinkan melakukan perjalanan. Rukun haji ada 4 yaitu memakai ihram, wuquf di Arafah, Thawaf, Sa'i (lari-lari kecil) antara bukit safa dan marwah. Sedangkan rukun umrah ada 3 yaitu Ihram, Thawaf, Sa'i"
     ],
     "context_set": ""
  },

@@ -46,27 +46,53 @@ classifier = pipeline("text-classification", model=model, tokenizer=tokenizer)
 app = Flask(__name__)
 CORS(app)
 
+# @app.route("/chat", methods=["POST"])
+# def chat():
+#     input_text = request.json["input_text"]
+#     # Use the classifier pipeline to get the text classification result
+#     result = classifier(input_text)
+#     predicted_label = result[0]["label"]
+
+#     # Directly use the label if the classifier returns the correct intent
+#     if predicted_label in label2id:
+#         intent_tag = predicted_label
+        
+#     else:
+#         # Handle potential mismatches or unexpected label formats
+#         intent_tag = id2label[int(predicted_label.split('_')[-1])] if predicted_label.split('_')[-1].isdigit() else 'unknown'
+        
+#     # Get a random response from the corresponding intent
+#     response = "maaf aku tidak paham."
+#     for intent in intents['intents']:
+#         if intent['tag'] == intent_tag:
+#             response = random.choice(intent['responses'])
+#             break
+
+#     return jsonify({"response_text": response})
+
 @app.route("/chat", methods=["POST"])
 def chat():
     input_text = request.json["input_text"]
     # Use the classifier pipeline to get the text classification result
     result = classifier(input_text)
+    score = result[0]['score']
     predicted_label = result[0]["label"]
 
-    # Directly use the label if the classifier returns the correct intent
-    if predicted_label in label2id:
-        intent_tag = predicted_label
+    if score < 0.8:
+        response = "Mohon maaf saya tidak dapat menjawab pertanyaan itu karena tidak ada dalam data saya."
+    else:
+        # Directly use the label if the classifier returns the correct intent
+        if predicted_label in label2id:
+            intent_tag = predicted_label
+        else:
+            # Handle potential mismatches or unexpected label formats
+            intent_tag = id2label[int(predicted_label.split('_')[-1])] if predicted_label.split('_')[-1].isdigit() else 'unknown'
 
         # Get a random response from the corresponding intent
-    for intent in intents['intents']:
-        if intent['tag'] == intent_tag:
-            response = random.choice(intent['responses'])
-            break
-        
-    else:
-        # Handle potential mismatches or unexpected label formats
-        intent_tag = id2label[int(predicted_label.split('_')[-1])] if predicted_label.split('_')[-1].isdigit() else 'unknown'
-        response = "maaf aku tidak paham."
+        for intent in intents['intents']:
+            if intent['tag'] == intent_tag:
+                response = random.choice(intent['responses'])
+                break
 
     return jsonify({"response_text": response})
 
